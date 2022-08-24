@@ -1,0 +1,162 @@
+html, body { 
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+} 
+
+#terrain {
+	height: 100%;
+	width: 40%;
+	background-image: url("/kiiroitomato33.jpg");
+	background-position: center;
+	position: relative;
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	
+}
+
+#interface {
+	height: 105%;
+	width: 61%;
+	background-color: #f0eded;
+	position: relative;
+	left: 40%;
+	bottom: 100%;
+	margin: 0;
+}
+
+#logo {
+	min-height: 150px;
+	height: 20%;
+	width: 100%;
+	background-color: black;
+	position: relative;
+	top: 23vh;
+	opacity: 0.5;
+	color: white;
+
+}
+
+#moone {
+	font-size: 7rem;
+	position: relative;
+	left: 40%;
+	bottom: 2em;
+	font-family: 'Indie Flower', cursive;
+}
+
+#moon  {
+	width: 125px;
+	height: 125px;
+	position: relative;
+	left: 10%;
+	top: 0.5em;
+}
+
+footer {
+	position: relative;
+	top: 75%;
+	text-align: center;
+	color: gray;
+}
+
+a {
+	color: white;
+}
+
+#forms {
+	width: 100%;
+	height: 30%;
+	min-height: 30%;
+	background-color: white;
+	position: relative;
+	top: 20%;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	padding: 10px;
+	box-shadow: 0 4px 10px -2px gray;
+	overflow: hidden
+}
+
+label,input{
+  display: flex;
+  flex-direction: column;
+}
+
+.in {
+	display: inline-block;
+}
+
+.pos {
+	position: relative;
+	left: 22%;
+	letter-spacing: 0.2rem;
+}
+
+.pos1 {
+	position: relative;
+	left: 7%;
+	letter-spacing: 0.2rem;
+}
+
+button {
+	position: relative;
+	top: 10em;
+	left: 8%;
+	width: 20%;
+	height: 5%;
+	background-color: #596D48;
+	color: white;
+	border-radius: 8px 8px 8px 8px;
+	font-family: 'Futura';
+	font-size: 1.2rem;
+}
+
+#p1 {
+	position: relative;
+	left: 7%;
+	bottom: 5%;
+	font-family: 'Futura';
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+#p2 {
+	position: relative;
+	left: 8%;
+	top: 11em;
+	color: black;
+	font-size: 1.1rem;
+}
+
+article {
+	position: relative;
+	top: 115px;
+	left: 3.7vw;
+	font-family: 'Futura';
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+.la1 {
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+input {
+	width: 25em;
+	height: 27px;
+	border: 2px solid #E5E7EB;
+}
+
+input:focus {
+	border: 3px solid blue;
+	
+}
+
+#log {
+
+	color: green;
+}
