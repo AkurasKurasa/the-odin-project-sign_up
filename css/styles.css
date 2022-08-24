@@ -7,7 +7,7 @@ html, body {
 #terrain {
 	height: 100%;
 	width: 40%;
-	background-image: url("/kiiroitomato33.jpg");
+	background-image: url("css/kiiroitomato33.jpg");
 	background-position: center;
 	position: relative;
 	margin-top: 0;
