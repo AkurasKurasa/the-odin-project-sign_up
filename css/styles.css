@@ -76,7 +76,7 @@ a {
 	padding-bottom: 25px;
 	padding: 10px;
 	box-shadow: 0 4px 10px -2px gray;
-	overflow: hidden
+	overflow: auto;
 }
 
 label,input{
